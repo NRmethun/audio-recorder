@@ -1,0 +1,89 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  padding: 20px 55px;
+}
+
+.logo {
+  text-align: center;
+  background-color: black;
+  width: 300px;
+  color: white;
+  padding: 5px 0;
+  border-radius: 20px;
+  margin: 8px;
+}
+
+.logo > span {
+  background-color: #ffa31a;
+  color: black;
+  padding: 0 4px;
+  margin-left: 4px;
+  border-radius: 5px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 5px 0;
+}
+
+.btn {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ffa31a;
+  color: black;
+  font-weight: 500;
+}
+
+.audioRecorderList {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.audioRecorder {
+  text-align: center;
+  width: 340px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.word {
+  font-size: 1.2rem;
+}
+
+.wordContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.wordContainer > button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1px 8px;
+  cursor: pointer;
+}
+
+.wordContainer > button:hover {
+  background-color: #ffa31a;
+  color: black;
+  border: none;
+  font-weight: 500;
+}
